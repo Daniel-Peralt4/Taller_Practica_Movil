@@ -1,9 +1,4 @@
 List<int> enteros = [5, 4, 3, 2, 1];
-void main() {
-  listaOrdenada(enteros);
-  Iterable<int> enteros2 = enteros.reversed;
-  print(enteros2);
-}
 
 void listaOrdenada(List<int> lista) {
   bool ascendente = true;
