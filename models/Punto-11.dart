@@ -6,10 +6,23 @@ List<String> palabras = [
   'agua',
   'fuego',
   'tierra',
-  'aire'
+  'aire',
+  'agua',
 ];
 void main() {
+  print("Lista de palabras: $palabras");
+  Map<String, int> diccionario = conteoPalabras(palabras);
+  print("Cantidad de cada palabra: $diccionario");
+}
+
+Map<String, int> conteoPalabras(List<String> palabras) {
   Map<String, int> diccionario = {};
-  int contador = 0;
-  for (var palabra in palabras) {}
+  for (var palabra in palabras) {
+    if (diccionario.containsKey(palabra)) {
+      diccionario[palabra] = diccionario[palabra]! + 1;
+    } else {
+      diccionario[palabra] = 1;
+    }
+  }
+  return diccionario;
 }
