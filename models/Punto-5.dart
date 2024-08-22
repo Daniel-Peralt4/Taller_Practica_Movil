@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main(){
   print("Ingrese un texto para saber si es palindromo");
-  String? texto = stdin.readLineSync()!.toLowerCase().replaceAll(" ", "");
+  String? texto = stdin.readLineSync()!.toLowerCase();
 
   if (texto == texto.split('').reversed.join('')){
     print("La cadena es un palindromo");
