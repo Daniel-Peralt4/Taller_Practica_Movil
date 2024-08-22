@@ -1,16 +1,29 @@
-double x = 1;
-double fx = (-0.5 * (x * x)) + (2.5 * x) + 4.5;
-double tolerancia = 0.001;
+import 'dart:io';
 
-List<double> coeficientes = [4.5, 2.5, -0.5];
+void main() {
+  // Solicitar al usuario el número
+  stdout.write('Ingrese un número para calcular su raíz cuadrada: ');
+  double? number = double.tryParse(stdin.readLineSync()!);
 
-double gx = (5 * x + 9);
-
-int encontrarJerarquia(List<double> coeficientes) {
-  for (int i = coeficientes.length - 1; i >= 0; i--) {
-    if (coeficientes[i] != 0) {
-      return i;
-    }
+  if (number == null || number < 0) {
+    print('Por favor, ingrese un número válido y no negativo.');
+    return;
   }
-  return -1;
+
+  // Llamar a la función para calcular la raíz cuadrada
+  double result = calcularRaizCuadrada(number);
+
+  // Mostrar el resultado
+  print('La raíz cuadrada aproximada de $number es: $result');
+}
+
+double calcularRaizCuadrada(double number) {
+  double epsilon = 0.00001; // Precisión deseada
+  double guess = number / 2.0; // Suposición inicial
+
+  while ((guess * guess - number).abs() > epsilon) {
+    guess = (guess + number / guess) / 2.0;
+  }
+
+  return guess;
 }
