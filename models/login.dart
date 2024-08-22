@@ -5,9 +5,9 @@ String password = "123.Dp";
 
 void login() {
   print("Ingrese su usuario");
-  String? user = stdin.readLineSync();
+  String? user = stdin.readLineSync() ?? '';
   print("Ingrese su contraseña");
-  String? pass = stdin.readLineSync();
+  String? pass = stdin.readLineSync() ?? '';
   if (user == usuario && pass == password) {
     print("Bienvenido $user");
   } else {
