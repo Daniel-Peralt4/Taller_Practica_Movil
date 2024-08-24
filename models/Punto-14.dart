@@ -1,4 +1,8 @@
-void main() {
+void conversionCadenaADiccionario() {
+
+  print("14) PROGRAMA QUE RECIBE UNA CADENA DE TEXTO Y DEVUELVE UN DICCIONARIO");
+  print("\n");
+
   Map<int, String> caracteres = conteoCaracteres('cadena de caracteres');
   print(caracteres);
 }

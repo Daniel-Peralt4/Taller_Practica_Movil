@@ -3,7 +3,11 @@ List<Map<String, dynamic>> estudiantes = [
   {'nombre': 'Pedro', 'nota 1': 3.7, 'nota 2': 4.1, 'nota 3': 3.0},
   {'nombre': 'Ana', 'nota 1': 4.2, 'nota 2': 1.6, 'nota 3': 3.8}
 ];
-void main() {
+void promedioConListasDeDiccionarios() {
+
+  print("15) PROGRAMA QUE CALCULA EL PROMEDIO DE ESTUDIANTES DE UNA LISTA DE DICCIONARIOS");
+  print("\n");
+  
   print(estudiantes);
   calcularPromedio(estudiantes);
 }

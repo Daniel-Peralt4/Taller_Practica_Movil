@@ -14,7 +14,11 @@ Map<String, int> dic2 = {
   'banano': 3
 };
 Map<String, int> resultado = {};
-void main() {
+void combinacionDeDiccionarios() {
+
+  print("13) PROGRAMA QUE COMBINA DOS DICCIONARIOS");
+  print("\n");
+
   print(dic1);
   print(dic2);
   combinacionDics(dic1, dic2);

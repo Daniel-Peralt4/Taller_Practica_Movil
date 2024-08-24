@@ -18,7 +18,11 @@ List<Map<String, dynamic>> productos = [
 
 List<Map<String, dynamic>> carrito = [];
 dynamic precioTotal = 0;
-void main() {
+void simulacionDeTienda() {
+
+  print("17) PROGRAMA QUE SIMULA UNA PEQUEÑA TIENDA CON DICCIONARIOS");
+  print("\n");
+
   agregarAlCarrito('papel higienico', 2);
   agregarAlCarrito('detergente', 3);
   agregarAlCarrito('arroz', 4);

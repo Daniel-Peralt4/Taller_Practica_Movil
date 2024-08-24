@@ -1,4 +1,8 @@
-void main(){
+void mezclarLista(){
+
+  print("7) PROGRAMA QUE MEZCLA DOS LISTAS DE IGUAL LONGITUD EN UNA SOLA LISTA");
+  print("\n");
+
   List<int> lista1 = [1,3,5,7];
   List<int> lista2 = [2,4,6,8];
   List<int> listaMezclada = [];

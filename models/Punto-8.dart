@@ -1,4 +1,8 @@
-void main() {
+void permutacionesDeElementos() {
+
+  print("8) PROGRAMA QUE GENERA LAS PERMUTACIONES POSIBLES DE UNA LISTA DE ELEMENTOS");
+  print("\n");
+
   List<int> elementos = [1, 2, 3];
   List<List<int>> permutaciones = [];
 

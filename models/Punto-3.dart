@@ -1,6 +1,10 @@
 import 'dart:io';
 
-void main() {
+void raiz() {
+
+  print("3) PROGRAMA QUE CALCULA LA RAIZ CUADRADA CON EL MÉTODO DE APROXIMACIONES SUCESIVAS");
+  print("\n");
+
   // Solicitar al usuario el número
   stdout.write('Ingrese un número para calcular su raíz cuadrada: ');
   double? numero = double.tryParse(stdin.readLineSync()!);

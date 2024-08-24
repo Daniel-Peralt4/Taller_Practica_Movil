@@ -6,7 +6,11 @@ Map<String, double> productos = {
   "Ajo": 120.2,
   "Zanahoria": 106.4
 };
-void main() {
+void descuentoAProductos() {
+
+  print("12) PROGRAMA QUE APLICA DESCUENTOS A ALGUNOS PRODUCTOS DE UN DICCIONARIO");
+  print("\n");
+
   print(productos);
   descuento(productos);
   print(productos);

@@ -9,7 +9,11 @@ List<String> palabras = [
   'aire',
   'agua',
 ];
-void main() {
+void diccionarioPalabrasRepetidas() {
+
+  print("11) PROGRAMA QUE RECIBE UNA LISTA DE PALABRAS Y CONSTRUYE UN DICCIONARIO");
+  print("\n");
+
   print("Lista de palabras: $palabras");
   Map<String, int> diccionario = conteoPalabras(palabras);
   print("Cantidad de cada palabra: $diccionario");

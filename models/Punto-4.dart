@@ -1,8 +1,11 @@
 import 'dart:math';
 import 'dart:io';
 
-void main() {
+void piedraPapelOTijera() {
   String? nuevamente;
+
+  print("4) PROGRAMA QUE JUEGA PIEDRA, PAPEL O TIJERA CONTRA EL USUARIO");
+  print("\n");
 
   do {
     Random random = Random();
