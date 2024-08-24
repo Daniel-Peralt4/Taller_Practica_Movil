@@ -90,6 +90,7 @@ void main() {
                break;
       case 20: print("\n");
                break;
+      default: print("Opción inválida");
     }
 
     print("Desea salir? (SI, NO)");
