@@ -1,7 +1,7 @@
 import 'dart:io';
 
-String usuario = "ElGonza";
-String contrasena = "PapiLindo";
+String usuario = "aeduardogonzalez";
+String contrasena = "unicesar2023";
 
 void login(){
 
