@@ -56,6 +56,7 @@ void main() {
     switch(opcion){
       case 1: listaOrdenada();
               print("\n");
+              break;
       case 2: login();
               print("\n");
       case 3: raiz();

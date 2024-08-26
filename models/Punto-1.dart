@@ -1,12 +1,7 @@
-List<int> enteros = [5, 4, 3, 2, 1];
-
-void listaOrdenada() {
+String listaOrdenada(List<int> enteros) {
   bool ascendente = true;
   bool descendente = true;
 
-  print("1) PROGRAMA QUE DETERMINA SI UNA LISTA ESTÁ O NO ORDENADA");
-  print("\n");
-  
   for (int i = 0; i <= enteros.length - 2; i++) {
     if (enteros[i] < enteros[i + 1]) {
       descendente = false;
@@ -15,11 +10,12 @@ void listaOrdenada() {
       ascendente = false;
     }
   }
+  
   if (ascendente) {
-    print("La lista está ordenada ascendentemente");
+    return "La lista está ordenada ascendentemente";
   } else if (descendente) {
-    print("La lista está ordenada descendentemente");
+    return "La lista está ordenada descendentemente";
   } else {
-    print("La lista no está ordenada");
+    return "La lista no está ordenada";
   }
 }
