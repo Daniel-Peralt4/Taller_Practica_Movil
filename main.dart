@@ -7,6 +7,7 @@ import 'models/Punto-6.dart';
 import 'models/Punto-7.dart';
 import 'models/Punto-8.dart';
 import 'models/Punto-9.dart';
+import 'models/Punto-10.dart';
 import 'models/Punto-11.dart';
 import 'models/Punto-12.dart';
 import 'models/Punto-13.dart';
@@ -71,8 +72,8 @@ void main() {
               print("\n");
       case 9: listaDeRepetidos();
               print("\n");
-      case 10: print("\n");
-               break;
+      case 10: conjuntosSubconjuntos();
+              print("\n");
       case 11: diccionarioPalabrasRepetidas();
               print("\n");
       case 12: descuentoAProductos();
@@ -89,13 +90,10 @@ void main() {
               print("\n"); 
       case 18: BusquedaBinariaLista();
              print("\n");
-               break;
       case 19: ordenamientoMergeSort();
              print("\n");
-               break;
       case 20: manejoCola();
              print("\n");
-               break;
       default: print("Opción inválida");
     }
 
