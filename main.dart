@@ -16,6 +16,7 @@ import 'models/Punto-16.dart';
 import 'models/Punto-17.dart';
 import 'models/Punto-18.dart';
 import 'models/Punto-19.dart';
+import 'models/Punto-20.dart';
 import 'dart:io';
 
 
@@ -92,7 +93,8 @@ void main() {
       case 19: ordenamientoMergeSort();
              print("\n");
                break;
-      case 20: print("\n");
+      case 20: manejoCola();
+             print("\n");
                break;
       default: print("Opción inválida");
     }
