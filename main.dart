@@ -14,6 +14,7 @@ import 'models/Punto-14.dart';
 import 'models/Punto-15.dart';
 import 'models/Punto-16.dart';
 import 'models/Punto-17.dart';
+import 'models/Punto-18.dart';
 import 'dart:io';
 
 
@@ -83,8 +84,9 @@ void main() {
       case 16: algoritmoCifraDeCesar();
               print("\n");
       case 17: simulacionDeTienda();
-               print("\n"); 
-      case 18: print("\n");
+              print("\n"); 
+      case 18: BusquedaBinariaLista();
+             print("\n");
                break;
       case 19: print("\n");
                break;

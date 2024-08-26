@@ -25,7 +25,7 @@ int binarySearch(List<int> lista, int valor) {
   return -1; // Elemento no encontrado
 }
 
-void main() {
+void BusquedaBinariaLista() {
   List<int> lista = [1, 3, 5, 7, 9, 11, 13, 15];
   
   stdout.write("Introduce el valor a buscar: ");
