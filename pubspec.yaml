@@ -1,0 +1,12 @@
+name: Taller_Practica_Movil
+description: A new Dart project.
+
+environment:
+  sdk: '^3.5.0'
+
+
+dependencies:
+
+
+dev_dependencies:
+  test: ^1.16.0
