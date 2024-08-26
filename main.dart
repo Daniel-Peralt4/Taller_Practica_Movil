@@ -15,6 +15,7 @@ import 'models/Punto-15.dart';
 import 'models/Punto-16.dart';
 import 'models/Punto-17.dart';
 import 'models/Punto-18.dart';
+import 'models/Punto-19.dart';
 import 'dart:io';
 
 
@@ -88,7 +89,8 @@ void main() {
       case 18: BusquedaBinariaLista();
              print("\n");
                break;
-      case 19: print("\n");
+      case 19: ordenamientoMergeSort();
+             print("\n");
                break;
       case 20: print("\n");
                break;
