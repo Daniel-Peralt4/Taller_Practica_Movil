@@ -42,7 +42,7 @@ String elGanador(String eleccionUsuario, String eleccionPrograma) {
       (eleccionUsuario == "tijera" && eleccionPrograma == "papel")) {
     mensaje = "Felicidades, haz ganado!!!!";
   } else {
-    mensaje = "Lo siento, haz pedido :'(";
+    mensaje = "Lo siento, haz perdido :'(";
   }
   return mensaje;
 }
