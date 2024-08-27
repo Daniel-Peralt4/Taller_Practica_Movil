@@ -1,11 +1,6 @@
 List<Map<String, dynamic>> productos = [
   {'nombre': 'papel higienico', 'precio': 2000, 'promocion': true, 'descuento': 0.9},
-  {
-    'nombre': 'detergente',
-    'precio': 2800,
-    'promocion': false,
-    'descuento': 0.85
-  },
+  {'nombre': 'detergente', 'precio': 2800, 'promocion': false, 'descuento': 0.85},
   {'nombre': 'leche', 'precio': 3400, 'promocion': true, 'descuento': null},
   {'nombre': 'cereal', 'precio': 1500, 'promocion': false, 'descuento': 0.8},
   {'nombre': 'arroz', 'precio': 3600, 'promocion': false, 'descuento': null},
